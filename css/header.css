@@ -1,0 +1,22 @@
+header{
+    min-height: 100px;
+    background-color: aqua;
+}
+header .container{
+    background-color: blueviolet;
+}
+header .logo{
+    width: 30%;
+}
+header nav{
+    width: 700px;
+    min-height: 100%;
+    background-color: blue;
+}
+.main-menu ul{
+    justify-content: space-between;
+}
+.main-menu li{
+    display: inline-block;
+    flex: 1;
+}
