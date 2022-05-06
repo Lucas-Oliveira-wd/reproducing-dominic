@@ -1,5 +1,5 @@
 header{
-    min-height: 100px;
+    min-height: 50px;
     background-color: aqua;
 }
 header .container{
@@ -7,16 +7,27 @@ header .container{
 }
 header .logo{
     width: 30%;
+    background-color: bisque;
+}
+#name-in-menu{
+    font-family: var(--font-primary);
+    text-transform: capitalize;
 }
 header nav{
     width: 700px;
     min-height: 100%;
     background-color: blue;
+    margin: 10px 0 10px 300px;
 }
 .main-menu ul{
-    justify-content: space-between;
+    align-items: space-between;
+    justify-items: space-between;
+    background-color: forestgreen;
+    height: 100%;
 }
 .main-menu li{
-    display: inline-block;
     flex: 1;
+    padding: 0 20px;
+    min-width: 20px;
+
 }
