@@ -1,0 +1,18 @@
+#sec-portifolio{
+    background-color: #eee;
+    padding: 150px 0;
+}
+.filter{
+    margin: 40px 0;
+}
+.filter-item{
+    margin: 0 10px;
+    background-color: #fff;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+#sec-portifolio .serv-item img{
+    min-height: 300px;
+    text-align: center;
+    padding: 40% 20%;
+}

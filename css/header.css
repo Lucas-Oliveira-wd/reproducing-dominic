@@ -1,33 +1,47 @@
 header{
-    min-height: 50px;
-    background-color: aqua;
+    min-height: 70px;
+    position: sticky !important;
+    background-color: #0008;
+    z-index: 10;
+    top: 0; left: 0; right: 0;
 }
 header .container{
-    background-color: blueviolet;
+    display: flex;
 }
 header .logo{
-    width: 30%;
-    background-color: bisque;
+    flex: 1;
+    height: 50px;
+    color: #eee;
+    padding: 14px 0;
 }
 #name-in-menu{
-    font-family: var(--font-primary);
     text-transform: capitalize;
+    font-weight: 900;
+    font-size: 3rem;
+    text-shadow: .3rem .2rem .6rem #111;
 }
 header nav{
-    width: 700px;
-    min-height: 100%;
-    background-color: blue;
-    margin: 10px 0 10px 300px;
+    flex: 2;
+    height: 100%;
+    padding: 30px 0;
 }
 .main-menu ul{
-    align-items: space-between;
-    justify-items: space-between;
-    background-color: forestgreen;
     height: 100%;
 }
 .main-menu li{
-    flex: 1;
-    padding: 0 20px;
-    min-width: 20px;
+    height: 100%;
+    display: inline-block;
+    margin: 0 10px;
+}
 
+.main-menu li a{
+    width: 100%;
+    font-family: var(--font-primary);
+    text-transform: uppercase;
+    padding: 10px 0;
+    transition: all .3s;
+    text-shadow: .06rem .05rem .1rem #000;
+}
+.main-menu li a:hover{
+    font-weight: bolder;
 }

@@ -10,6 +10,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    transition: all .3s;
 }
 body{
     font-size: 16px;
@@ -17,7 +18,7 @@ body{
 }
 :root{
     --font-primary: 'Roboto Mono', sans-serif;
-    --font-secundary: 'Plex Mono', serif;
+    --font-secundary: 'IBM Plex Mono', serif;
     --font-action: 'Roboto', sans-serif;
     --color-primary-1:rgba(0, 0, 30, 0.1);
     --color-primary-2:rgba(0, 0, 30, 0.2);
@@ -50,7 +51,7 @@ html{
     scroll-behavior: smooth;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1300px;
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -138,9 +139,7 @@ a{
     height: 100%;
     display: flex;
     align-items: center;
-}
-a:hover{
-    color: var(--color-primary);
+    cursor: pointer;
 }
 
 /*      Generalicaões da estilizacão dos forms      */
