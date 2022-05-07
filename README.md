@@ -9,5 +9,5 @@ O crontrole das tarefas desse projetos será realizado no GitHub
 
 :package: nova funcionalidade
 :up: atualizacão
-:beatle: correcão de bug
+:beetle: correcão de bug
 :checkered_flag: release
